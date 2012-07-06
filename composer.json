@@ -1,0 +1,19 @@
+{
+    "name": "uzyn/cakephp-sqs",
+	"description": "AWS Simple Queue Service (SQS) database driver for CakePHP ",
+	"keywords": ["aws","sqs","amazon","queue","simple queue service","cakephp","cakephp plugin","datasource","database"],
+	"homepage": "http://uzyn.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "U-Zyn Chua",
+			"email": "chua@uzyn.com",
+			"homepage": "http://uzyn.com"
+		}
+	],
+    "type": "cakephp-plugin",
+    "require": {
+        "composer/installers": "*",
+		"amazonwebservices/aws-sdk-for-php": "1.5.*"
+    }
+}
