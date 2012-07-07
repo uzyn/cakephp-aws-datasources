@@ -1,28 +1,28 @@
 {
     "name": "uzyn/cakephp-aws-datasources",
-	"description": "AWS Simple Storage Service (S3) & Simple Queue Service (SQS) database drivers for CakePHP",
-	"keywords": ["aws","sqs","amazon","queue","simple queue service","cakephp","cakephp plugin","datasource","database","s3","storage","simple storage service"],
-	"homepage": "http://uzyn.com",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "U-Zyn Chua",
-			"email": "chua@uzyn.com",
-			"homepage": "http://uzyn.com"
-		}
-	],
+    "description": "AWS Simple Storage Service (S3) & Simple Queue Service (SQS) database drivers for CakePHP",
+    "keywords": ["aws","sqs","amazon","queue","simple queue service","cakephp","cakephp plugin","datasource","database","s3","storage","simple storage service"],
+    "homepage": "http://uzyn.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "U-Zyn Chua",
+            "email": "chua@uzyn.com",
+            "homepage": "http://uzyn.com"
+        }
+    ],
     "type": "cakephp-plugin",
-	"repositories": [
-		{
-			"url": "git://github.com/uzyn/composer-installers.git",
-			"type": "git"
-		}
-	],
+    "repositories": [
+        {
+            "url": "git://github.com/uzyn/composer-installers.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "uzyn/composer-installers": "*",
-		"amazonwebservices/aws-sdk-for-php": "1.5.*"
+        "amazonwebservices/aws-sdk-for-php": "1.5.*"
     },
-	"extra": {
-		"installers-name": "AWSDatasources"
-	}
+    "extra": {
+        "installers-name": "AWSDatasources"
+    }
 }
