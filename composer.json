@@ -12,8 +12,17 @@
 		}
 	],
     "type": "cakephp-plugin",
+	"repositories": [
+		{
+			"url": "git://github.com/uzyn/composer-installers.git",
+			"type": "git"
+		}
+	],
     "require": {
-        "composer/installers": "*",
+        "uzyn/composer-installers": "*",
 		"amazonwebservices/aws-sdk-for-php": "1.5.*"
-    }
+    },
+	"extra": {
+		"installers-name": "AWSDatasources"
+	}
 }
